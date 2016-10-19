@@ -11,5 +11,5 @@ https://github.com/michaelcheng429/meanstacktutorial
 <p>
 Check tutorial
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kHV7gOHvNdk" frameborder="0" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=kHV7gOHvNdk
 </p>
