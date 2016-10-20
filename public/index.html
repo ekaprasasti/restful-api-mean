@@ -26,6 +26,7 @@
 			</thead>
 			<tbody>
 				<tr>
+					<!-- step 30 - Prepare our index.html layout to post our data to contactlist app -->
 					<td><input class="form-control" ng-model="contact.name"></td>
 					<td><input class="form-control" ng-model="contact.email"></td>
 					<td><input class="form-control" ng-model="contact.number"></td>
@@ -39,7 +40,9 @@
 					<td>{{contact.name}}</td>
 					<td>{{contact.email}}</td>
 					<td>{{contact.number}}</td>
+					<!-- step 35 - Add remove button to our contact -->
 					<td><button class="btn btn-danger" ng-click="remove(contact._id)">Remove</button></td>
+					<!-- step 39 -Put (edit) request to data in the table -->
 					<td><button class="btn btn-warning" ng-click="edit(contact._id)">Edit</button></td>
 				</tr>
 			</tbody>
