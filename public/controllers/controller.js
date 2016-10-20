@@ -1,3 +1,8 @@
+/*
+	Step 19 - Create controller in app
+	Controller communicate with our view
+	Model contain our data
+*/
 var myApp = angular.module('myApp', []);
 myApp.controller('AppCtrl', ['$scope', '$http', function($scope, $http) {
 	console.log("Hello world from controller");
