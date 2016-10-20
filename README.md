@@ -13,3 +13,11 @@ Check tutorial
 <br>
 https://www.youtube.com/watch?v=kHV7gOHvNdk
 </p>
+
+<h3>Step By Step</h3>
+
+<ol type="1">
+  <li>Install NodeJS & Git Bash</li>
+  <li></li>
+  <li></li>
+</ol>
