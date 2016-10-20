@@ -1,9 +1,12 @@
-var express = require('express');
-var app = express();
-var mongojs = require('mongojs');
-var db = mongojs('contactlist', ['contactlist']);
-var bodyParser = require('body-parser');
+// Step 8 - Require express module
+var express 	= require('express');
+var app 		= express();
 
+var mongojs 	= require('mongojs');
+var db 			= mongojs('contactlist', ['contactlist']);
+var bodyParser 	= require('body-parser');
+
+// Step 10 - Setup HTML template
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.json());
 
@@ -50,5 +53,7 @@ app.put('/contactlist/:id', function(req, res) {
 	});
 });
 
+// step 9 - Make sure server running correctly
+// run server in terminal by using command: node server.js
 app.listen(3000);
 console.log("Server running on port 3000");
